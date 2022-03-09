@@ -14,6 +14,7 @@
 		137B820C27D79F46007C3677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137B820A27D79F46007C3677 /* LaunchScreen.storyboard */; };
 		137B821427D79FD9007C3677 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B821327D79FD9007C3677 /* PhotosCollectionViewController.swift */; };
 		137B821627D7A467007C3677 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B821527D7A467007C3677 /* PhotoCell.swift */; };
+		1385F3A027D908DB000C2CED /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1385F39F27D908DB000C2CED /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		137B820D27D79F46007C3677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		137B821327D79FD9007C3677 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		137B821527D7A467007C3677 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		1385F39F27D908DB000C2CED /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				137B81FF27D79F44007C3677 /* AppDelegate.swift */,
 				137B820127D79F44007C3677 /* SceneDelegate.swift */,
 				137B821327D79FD9007C3677 /* PhotosCollectionViewController.swift */,
+				1385F39F27D908DB000C2CED /* PhotoViewController.swift */,
 				137B821527D7A467007C3677 /* PhotoCell.swift */,
 				137B820527D79F44007C3677 /* Main.storyboard */,
 				137B820827D79F46007C3677 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				137B820027D79F44007C3677 /* AppDelegate.swift in Sources */,
 				137B820227D79F44007C3677 /* SceneDelegate.swift in Sources */,
 				137B821427D79FD9007C3677 /* PhotosCollectionViewController.swift in Sources */,
+				1385F3A027D908DB000C2CED /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
