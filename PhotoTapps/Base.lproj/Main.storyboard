@@ -16,19 +16,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lUj-4f-HOj">
-                            <size key="itemSize" width="128" height="128"/>
+                            <size key="itemSize" width="100" height="100"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="photoCell" id="kAg-Sz-0Co" customClass="PhotoCell" customModule="PhotoTapps" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2aJ-to-OMR">
-                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Atp-ro-gRL">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Atp-ro-gRL" secondAttribute="trailing" id="9cw-4j-Gor"/>
+                                        <constraint firstAttribute="bottom" secondItem="Atp-ro-gRL" secondAttribute="bottom" id="AG4-vn-jc1"/>
+                                        <constraint firstItem="Atp-ro-gRL" firstAttribute="top" secondItem="2aJ-to-OMR" secondAttribute="top" id="oW3-Yb-enx"/>
+                                        <constraint firstItem="Atp-ro-gRL" firstAttribute="leading" secondItem="2aJ-to-OMR" secondAttribute="leading" id="ptf-Ta-8G2"/>
+                                    </constraints>
                                 </collectionViewCellContentView>
+                                <connections>
+                                    <outlet property="dogImageView" destination="Atp-ro-gRL" id="SOu-sG-X26"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -40,7 +54,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wct-xs-lSn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="655" y="38"/>
+            <point key="canvasLocation" x="653.62318840579712" y="37.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xrl-ho-SEe">
